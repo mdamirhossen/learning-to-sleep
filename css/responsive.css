@@ -1,0 +1,250 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 95% !important;
+    }
+    ul.left {
+        float: left;
+    }
+    ul.right {
+        float: right;
+        margin-right: 20%;
+    }
+    .blogTtem h6 {
+        margin: 2px 0;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1170px) {
+    section {
+        padding: 40px 0;
+        padding-top: 30px;
+    }
+    .bannerWrap h3 {
+        font-size: 35px;
+    }
+    #bannerSection {
+        padding: 140px 0;
+    }
+    .sectionTitle h2 {
+        font-size: 32px;
+    }
+    .sectionTitle h2::before {
+        width: 40px;
+    }
+    .contactWrp {
+        width: 28% !important;
+    }
+    .serviceItems h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1108px) {
+    .bannerWrap p {
+        width: 68%;
+    }
+    .contactWrp {
+        width: 30% !important;
+    }
+}
+
+@media (max-width:1055px) {
+    .bannerWrap h3 {
+        font-size: 32px;
+    }
+    #bannerSection {
+        padding: 125px 0;
+    }
+    .contactWrp {
+        width: 32% !important;
+    }
+}
+
+@media (max-width:991px) {
+    .serviceItems {
+        margin-top: 25px;
+    }
+    .defultService {
+        margin-top: -25px;
+    }
+    .contactWrp {
+        width: 34% !important;
+    }
+
+}
+
+@media (max-width:965px) {
+    .container {
+        max-width: 97% !important;
+    }
+    section {
+        padding: 30px 0;
+        padding-top: 20px;
+    }
+    .bannerWrap h3 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .bannerWrap p {
+        width: 74%;
+    }
+    .contactWrp {
+        width: 35% !important;
+    }
+}
+
+@media (max-width:880px){
+
+    .aboutImg {
+        margin-top: 15px;
+    }
+    .contactWrp {
+        width: 38% !important;
+    }
+}
+
+@media (max-width:810px){
+    .bannerWrap h3 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    #bannerSection {
+        padding: 100px 0;
+    }
+    .bannerWrap p {
+        width: 90%;
+    }
+    ul.right {
+        margin-right: 5%;
+    }
+    .aboutImg {
+        margin-top: 35px;
+    }
+    .contactWrp {
+        width: 40% !important;
+    }
+}
+
+
+@media (max-width:768px) {
+    .container {
+        max-width: 98% !important;
+    }
+    a.navbar-brand {
+        width: 16%;
+    }
+    #bannerSection {
+        padding: 90px 0;
+    }
+    .bannerWrap {
+        width: 78%;
+    }
+    .bannerWrap h3 {
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+    .bannerBtn {
+        margin-top: 0;
+    }
+
+/***************** About Section *****************/
+    .aboutImg {
+        margin-top: 0;
+        width: 75%;
+        margin: auto;
+    }
+    .sectionTitle h2 {
+        font-size: 26px;
+    }
+    .sectionTitle h2::before {
+        width: 30px;
+        bottom: -10px;
+    }
+    .sectionTitle {
+        margin-bottom: 30px;
+    }
+    .aboutText {
+        width: 75%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+/***************** Service Section *****************/
+    .serviceItems {
+        width: 75%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+/***************** Blog Section *****************/
+    section#BlogSection {
+        padding-bottom: 5px;
+    }
+
+/***************** Contact Section *****************/
+    .contactWrp {
+        width: 75% !important;
+    }
+
+}
+
+@media (max-width:500px) {
+    #bannerSection {
+        padding: 50px 0;
+    }
+    .bannerWrap h3 {
+        font-size: 18px;
+    }
+    .bannerWrap {
+        width: 100%;
+    }
+    .bannerBtn a {
+        padding: 5px 15px;
+    }
+    .aboutImg {
+        width: 100%;
+    }
+    .aboutText {
+        width: 100%;
+    }
+    .serviceItems {
+        width: 100%;
+    }
+    .blogItems {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .contactWrp {
+        width: 90% !important;
+    }
+    a.navbar-brand {
+        width: 24%;
+    }
+
+
+}
+
+
+@media (max-width:323px) {
+    section {
+        padding: 10px 0;
+    }
+    ul.right {
+        float: left;
+    }
+    a.navbar-brand {
+        width: 35%;
+    }
+    #bannerSection {
+        padding: 35px 0;
+    }
+    .bannerBtn a {
+        padding: 5px 10px;
+    }
+    .sectionTitle h2 {
+        font-size: 23px;
+    }
+}

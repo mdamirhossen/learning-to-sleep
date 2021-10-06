@@ -1,0 +1,186 @@
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family:system-ui;
+    color:#000000ad;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:cursive;
+    font-weight: bold;
+}
+section{
+    padding:40px 0;
+}
+img{
+    width:100%;
+}
+a{
+    text-decoration:none;
+}
+
+
+/***************** Header Menu Bar *****************/
+a.navbar-brand {
+    width: 13%;
+}
+.mainMenu li {
+    padding: 0 15px;
+}
+.mainMenu li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+
+/***************** Banner Section *****************/
+#bannerSection{
+    background:url(../img/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    padding: 150px 0;
+}
+.bannerWrap {
+    width: 50%;
+}
+.bannerWrap h3 {
+    font-size: 39px;
+    font-weight: bold;
+    line-height: 53px;
+    margin-bottom: 20px;
+    color: white;
+}
+.bannerWrap p {
+    width: 60%;
+    color: white;
+}
+.bannerBtn a {
+    background: tomato;
+    color: white;
+    display: inline-block;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+    transition:0.3s;
+    -webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+}
+.bannerBtn a:hover{
+    background:#333333;
+}
+.bannerBtn {
+    margin-top: 25px;
+}
+
+
+/***************** About Section *****************/
+.sectionTitle {
+    margin-bottom: 40px;
+}
+.sectionTitle h2 {
+    color: tomato;
+    font-weight: bold;
+    font-size: 40px;
+    position:relative;
+}
+.sectionTitle h2::before{
+    content: "";
+    background: tomato;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.aboutText h4 {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+}
+.aboutList ul {
+    margin-bottom: 0;
+}
+
+/***************** Services Section *****************/
+section#serviceSection {
+    background: #3737371c;
+}
+.serviceItems {
+    background: white;
+    padding: 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px -10px black;
+}
+
+/***************** Blog Section *****************/
+.blogTtem {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+.blogItems {
+    position: relative;
+    margin-bottom: 20px;
+}
+.blogTtem p {
+    color: white;
+    margin: 0;
+}
+.blogTtem h6 {
+    color: white;
+    margin: 5px 0;
+}
+.blogTtem a {
+    color: white;
+    text-decoration: underline;
+}
+
+/***************** Contact Section *****************/
+section#contactSection {
+    background: tomato;
+}
+.contact{
+    color:white !important;
+}
+.contact::before{
+    background: white !important;
+}
+.modify {
+    margin-top: 10px;
+}
+.modify:focus{
+    box-shadow: 0px 0px 7px -2px black;
+}
+.subModify {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 35px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition:0.3s;
+    -webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    margin-top: 10px;
+}
+.subModify:hover{
+    background: white;
+    color:tomato;
+}
+
+/***************** Footer Section *****************/
+.footerWrp h6 {
+    margin-bottom: 0;
+    color: white;
+}
+footer#footerSection {
+    background: #000000c2;
+    padding: 15px 0;
+}
